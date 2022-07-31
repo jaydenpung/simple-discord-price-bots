@@ -1,0 +1,14 @@
+{
+    "ticker": "ETH",
+    "name": "ethereum",
+    "nickname": true,
+    "frequency": 10,
+    "color": false,
+    "decorator": ":",
+    "currency": "USD",
+    "currency_symbol": "$",
+    "decimals": 2,
+    "activity": "marketcap",
+    "crypto": true,
+    "discord_bot_token": ""
+}
