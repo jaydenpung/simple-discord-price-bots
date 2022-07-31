@@ -1,2 +1,3 @@
 bots/*.json
 !bots/sample.json
+dist/
