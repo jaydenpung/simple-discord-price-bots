@@ -1,6 +1,6 @@
 # Simple Discord Price Bots
 
-This project is based on [https://github.com/rssnyder/discord-stock-ticker](discord-stock-ticker). Instead of starting an api server that can be called to manage bots, this project lets you define the bot in a json file, and then simply run the binary file.
+This project is based on [discord-stock-ticker](https://github.com/rssnyder/discord-stock-ticker). Instead of starting an api server that can be called to manage bots, this project lets you define the bot in a json file, and then simply run the binary file.
 
 ## Run
 
