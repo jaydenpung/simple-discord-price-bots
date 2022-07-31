@@ -18,7 +18,7 @@ func main() {
 
 	r, _ := regexp.Compile(`\.json$`)
 	for _, file := range files {
-		if !file.IsDir() && r.FindString(file.Name()) != "" {
+		if !file.IsDir() && r.FindString(file.Name()) != "" && file.Name() != "sample.json" {
 			fileFullPath := fmt.Sprintf("%s/%s", configDirectory, file.Name())
 			createTicker(fileFullPath)
 		}
