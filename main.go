@@ -43,5 +43,9 @@ func createTicker(jsonFilePath string) {
 		log.Errorf("Error loading ticker: ", err)
 	}
 
-	go ticker.run()
+	if ticker.Api == "pony" {
+		go ticker.runPony()
+	} else {
+		go ticker.runGecko()
+	}
 }

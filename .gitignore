@@ -1,3 +1,5 @@
 bots/*.json
 !bots/sample.json
 dist/
+simple-discord-price-bots
+inactive-bots
